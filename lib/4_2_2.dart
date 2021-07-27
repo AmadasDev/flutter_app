@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('제목'),
+          title: Text('Column'),
         ),
         body: Column(
           children: <Widget>[
