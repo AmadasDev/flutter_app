@@ -24,7 +24,7 @@ class MyHomPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('제목'),
+        title: Text('main'),
       ),
       body: Text('여기에 예제 작성'),  //  주로 여기에 코딩한다.
     );
