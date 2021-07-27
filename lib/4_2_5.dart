@@ -25,7 +25,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('제목'),
+          title: Text('SingleChildScrollView'),
         ),
         body: SingleChildScrollView(
           child: ListBody(  //  Column의 경우 숫자노출된 영역만 스크롤 적용됨.
