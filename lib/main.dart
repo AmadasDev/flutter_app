@@ -1,5 +1,3 @@
-//  3.3.1 StatelessWidget 실습
-
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
