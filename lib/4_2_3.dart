@@ -27,9 +27,9 @@ class MyHomePage extends StatelessWidget {
           title: Text('제목'),
         ),
         body: Row(
-          mainAxisSize: MainAxisSize.max, //  가로로 꽉 채우기
-          mainAxisAlignment: MainAxisAlignment.center,  //  가로 방향으로 가운데 정렬하기
-          crossAxisAlignment: CrossAxisAlignment.center,  //  세로 방향으로 가운데 정렬하기
+          mainAxisSize: MainAxisSize.max, //  가로로 꽉 채우기(max:남은 공간을 모두 차지한다. min:포함된 콘텐츠의 크기만큼만 차지한다.)
+          mainAxisAlignment: MainAxisAlignment.center,  //  가로 방향으로 가운데 정렬하기(start:왼쪽 정렬. end:오른쪽 정렬.)
+          crossAxisAlignment: CrossAxisAlignment.center,  //  세로 방향으로 가운데 정렬하기(start:왼쪽 정렬. end:오른쪽 정렬.)
           children: <Widget>[
             Container(
               color: Colors.red,
