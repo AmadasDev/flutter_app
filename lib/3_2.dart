@@ -11,6 +11,7 @@ void main() => runApp(MyApp());
 	여기서 상태를 가지지 않는다는 것은 한 번 그려진 후 다시 그리지 않는 경우이며,
 	이러한 클래스는 프로퍼티로 가지지 않는다.(상수는 가질 수 있다.)
 */
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
