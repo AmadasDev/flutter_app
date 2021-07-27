@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('제목'),
+          title: Text('GridView'),
         ),
         body: GridView.count(
           crossAxisCount: 2,  //  열 수
