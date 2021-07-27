@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
           title: Text('제목'),
         ),
         body: SingleChildScrollView(
-          child: ListBody(
+          child: ListBody(  //  Column의 경우 숫자노출된 영역만 스크롤 적용됨.
             children: items.map((i) => Text('$i')).toList(),
           ),
         ),
