@@ -1,4 +1,4 @@
-//  3.3.1 StatelessWidget 실습
+//  Chapter 3.3.1 StatelessWidget 실습
 
 import 'package:flutter/material.dart';
 
