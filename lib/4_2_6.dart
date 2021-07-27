@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
 
 //  여기부터 수정한다.
 class MyHomePage extends StatelessWidget {
-  final items = List.generate(100, (i) => i).toList();  //  0부터 99까지의 값을 갖는 리스트 생성
   @override
   Widget build(BuildContext context) {
     return Scaffold(
