@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('제목'),
+          title: Text('Row'),
         ),
         body: Row(
           mainAxisSize: MainAxisSize.max, //  가로로 꽉 채우기(max:남은 공간을 모두 차지한다. min:포함된 콘텐츠의 크기만큼만 차지한다.)
