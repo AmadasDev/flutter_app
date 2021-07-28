@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Text'),
+        title: Text('Image'),
       ),
       body: Image.network('https://picsum.photos/250?image=9'),
     );
