@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
           title: Text('Text'),
         ),
         body: Text(
-          'Hello World',
+          'Hello World',  //  필수 프로퍼티고 이름 없는 인수
           style: TextStyle(
             fontSize: 40.0, //  글자크기
             fontStyle: FontStyle.italic, //  이탤릭체
