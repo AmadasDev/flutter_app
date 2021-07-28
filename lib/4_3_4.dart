@@ -29,7 +29,7 @@ class MyHomePage extends StatelessWidget {
         body: Column(
           children: <Widget>[
             Expanded(
-              flex: 1,  //  기본값은 1
+              flex: 2,  //  기본값은 1
               child: Container(
                 color: Colors.red,
               ),
