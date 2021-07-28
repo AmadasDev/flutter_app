@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Icon'),
+        title: Text('Icon' ),
       ),
       body: Icon(
         Icons.home,
