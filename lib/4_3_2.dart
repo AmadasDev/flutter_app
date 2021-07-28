@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
         title: Text('Padding'),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(40.0),
+        padding: const EdgeInsets.all(40.0),  //  all:네 방향 모두 같은 값 fromLTRB:네 방향의 값을 각각 지정
         child: Container(
           color: Colors.red,
         ),
