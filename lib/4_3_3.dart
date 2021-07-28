@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Padding'),
+          title: Text('Align'),
         ),
         body: Align(
           alignment: Alignment.bottomRight,
