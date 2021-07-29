@@ -40,13 +40,13 @@ class _MyHomePageState extends State<MyHomePage> {
               (value) {
             return DropdownMenuItem(
               value: value,
-              child: Text(vale),
+              child: Text(vale),  //  error: Undefined name 'vale'
             );
           },
         ).toList(),
         onChanged: (value) {
           setState(() {
-            _selectedValue = value;
+            _selectedValue = value; //  error: A value of type 'Object?' can't be assigned to a variable of type 'String'
           });
         },
       ),
