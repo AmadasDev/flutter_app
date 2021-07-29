@@ -29,7 +29,6 @@ class MyHomePage extends StatelessWidget {
         //child: Icon(Icons.person),
         backgroundImage: NetworkImage('https://picsum.photos/250?image=9'), //  네트워크상에 존재하는 이미지를 표시한다면
       ),
-
     );
   }
 }
