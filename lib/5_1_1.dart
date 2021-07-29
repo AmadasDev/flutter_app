@@ -27,6 +27,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: TextField(
         decoration: InputDecoration(
+          border: OutlineInputBorder(), //  외곽선
           labelText: '여기에 입력하세요.',  //  힌트
         ),
       )
