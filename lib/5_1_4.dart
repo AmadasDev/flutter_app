@@ -37,12 +37,12 @@ class _MyHomePageState extends State<MyHomePage> {
       body: DropdownButton(
         value: _selectedValue,
         items: _valueList.map(
-              (value) {
-            return DropdownMenuItem(
-              value: value,
-              child: Text(vale),  //  error: Undefined name 'vale'
-            );
-          },
+            (value) {
+              return DropdownMenuItem(
+                value: value,
+                child: Text(value),
+              );
+            },
         ).toList(),
         onChanged: (value) {
           setState(() {
