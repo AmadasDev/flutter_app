@@ -47,6 +47,7 @@ class _AnimatedContainerPageState extends State<AnimatedContainerPage> {
               duration: Duration(seconds: 1), //  1초 동안 애니메이션 적용
               width: _size, //  랜덤한 값을 적용
               height: _size,  //  랜덤한 값을 적용
+              /*child: Image.asset('assets/sample.jpg'),*/
               child: Image.network('https://picsum.photos/250?image=9'),
               curve: Curves.fastOutSlowIn,  //  미리 정의된 애니메이션 효과
             ),
