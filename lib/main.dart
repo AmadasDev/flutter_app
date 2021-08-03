@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_app/first_page.dart'; //  첫 번째 페이지
+import 'package:flutter_app/second_page.dart';  //  두 번째 페이지
 
 void main() => runApp(MyApp());
 
