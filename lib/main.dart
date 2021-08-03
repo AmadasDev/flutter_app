@@ -1,9 +1,9 @@
 //  main.dart
 //  Chapter 6.1.1 파일 분할 및 임포트 방법
+//  Chapter 6.1.4 새로운 화면에 값 전달하기
 
 import 'package:flutter/material.dart';
 import 'package:flutter_app/first_page.dart'; //  첫 번째 페이지
-import 'package:flutter_app/second_page.dart';  //  두 번째 페이지
 
 void main() => runApp(MyApp());
 
@@ -20,8 +20,15 @@ class MyApp extends StatelessWidget {
   }
 }
 //  여기까지는 공통 코드이다.
-/*
 
+//  새로운 화면에 값 전달하기
+class Person {
+  String name;
+  int age;
+
+  Person(this.name, this.age);
+}
+/*
 //  여기부터 수정한다.
 //  첫 번째 페이지
 class FirstPage extends StatelessWidget {
