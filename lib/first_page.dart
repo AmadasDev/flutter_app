@@ -1,7 +1,7 @@
 //  Chapter 6.1.2 push로 새로운 화면 호출
 
 import 'package:flutter/material.dart';
-import 'package:flutter_app/second_page.dart';  //  두 번째 페이지
+import 'package:flutter_app/second_page.dart';     //  두 번째 페이지
 
 //  첫 번째 페이지
 class FirstPage extends StatelessWidget {
