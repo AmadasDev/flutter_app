@@ -1,3 +1,4 @@
+//  main.dart
 //  Chapter 6.1.1 파일 분할 및 임포트 방법
 
 import 'package:flutter/material.dart';
