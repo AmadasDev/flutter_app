@@ -1,3 +1,4 @@
+//  second_page.dart
 //  Chapter 6.1.3 pop으로 이전 화면으로 이동
 
 import 'package:flutter/material.dart';
