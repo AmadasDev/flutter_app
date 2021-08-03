@@ -1,6 +1,8 @@
-//  main.dart
+//  Chapter 6.1.1 파일 분할 및 임포트 방법
 
 import 'package:flutter/material.dart';
+import 'package:flutter_app/first_page.dart'; //  첫 번째 페이지
+import 'package:flutter_app/second_page.dart';  //  두 번째 페이지
 
 void main() => runApp(MyApp());
 
@@ -12,21 +14,50 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomPage(),
+      home: FirstPage(), //  첫 페이지를 시작 페이지로 지정
     );
   }
 }
 //  여기까지는 공통 코드이다.
+/*
 
 //  여기부터 수정한다.
-class MyHomPage extends StatelessWidget {
+//  첫 번째 페이지
+class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('main'),
+        title: Text('First'),
       ),
-      body: Text('여기에 예제 작성'),  //  주로 여기에 코딩한다.
+      body: ElevatedButton(
+        child: Text('다음 페이지로'),
+        onPressed: () {
+          Navigator.push( //  SecondPage로 화면 이동 코드
+            context,
+            MaterialPageRoute(builder: (context) => SecondPage()),
+          );
+        },
+      )
     );
   }
 }
+
+//  두 번째 페이지
+class SecondPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Second'),
+      ),
+      body: ElevatedButton(
+        child: Text('이전 페이지로'),
+        onPressed: () {
+          Navigator.pop(context); //  현재 화면을 종료하고 이전 화면으로 돌아가기
+        },
+      ),
+    );
+  }
+}
+*/
