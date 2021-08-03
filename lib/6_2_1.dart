@@ -1,4 +1,4 @@
-//  main.dart
+//  6_2_1.dart
 //  Chapter 6.2.1 routes 정의
 
 import 'package:flutter/material.dart';
