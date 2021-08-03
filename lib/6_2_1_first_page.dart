@@ -1,4 +1,4 @@
-//  first_page.dart
+//  6_2_1_first_page.dart
 //  Chapter 6.2.2 routes에 의한 화면 이동
 
 import 'package:flutter/material.dart';
