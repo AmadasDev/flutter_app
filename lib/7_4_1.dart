@@ -97,6 +97,7 @@ class Page1 extends StatelessWidget {
 
   // 상단
   // 각 메뉴를 눌렀을 때 클릭이 되게 하려면 메뉴의 Column을 GestureDetector로 감싸고 onTap 프로퍼티를 정의한다.
+  // GestureDetector 위젯은 애니메이션 효과는 없다. 시각적으로 클릭된 것을 표현하고 싶다면 InWell 위젯을 사용하면 된다.
   Widget _buildTop() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly, //  위젯 사이의 공간을 동일한 비율로 정렬하는 의미
