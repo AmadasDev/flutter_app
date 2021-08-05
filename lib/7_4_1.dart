@@ -34,11 +34,12 @@ class _MyHomePageState extends State<MyHomePage> {
           IconButton(
             icon: Icon(
               Icons.add,
-              color: Colors.black,  //  앱의 전체 테마를 수정했다면 작성하지 않아도 됨
+              color: Colors.black,  //  앱의 전체 테마를 수정했다면 작성하지 않아도 됨.
             ),
             onPressed: () {},
           ),
         ],
+        centerTitle: true,  //  제목을 가운데로
       ),
       body: Center(
         child: Text(
