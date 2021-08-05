@@ -127,14 +127,17 @@ class Page1 extends StatelessWidget {
             Text('바이크'),
           ],
         ),
-        Column(
-          children: [
-            Icon(
-              Icons.local_taxi,
-              size: 40,
-            ),
-            Text('대리'),
-          ],
+        Opacity(
+          opacity: 0.0, //  투명(0.0), 불투명(1.0)
+          child: Column(
+            children: [
+              Icon(
+                Icons.local_taxi,
+                size: 40,
+              ),
+              Text('대리'),
+            ],
+          ),
         ),
       ],
     );
